@@ -7,9 +7,9 @@
  */
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import HomeScreen from './src/screens/homeScreen/HomeScreen';
 
 const App = () => {
-  return <Icon name="rocket" size={100} color="red" />;
+  return <HomeScreen />;
 };
-
 export default App;
